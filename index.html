@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Higher or Lower Game</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Indie Flower' rel='stylesheet'>
+      <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="game-title">Higher or Lower?</h1>
+      <p class="lower-title">Find the correct number in as few guesses as possible!</p>
+      <hr class="divider"></hr>
+      <p class="play-higher-lower" id="message-el">Want to play a round?</p>
+       <div class="current-guess">
+      <p id="guessed-num"></p></div>
+      <form id="form-input">
+        <input id="enter-guess-el" type="number" placeholder="Enter your guess">
+      </form>
+  <div class="buttons">
+    <button id="start-btn">Start</button>
+    <button id="guess-btn">Guess</button>
+    <button id="restart-btn">Restart</button>
+  </div>
+    <p class="num-guessed" id ="numbers-guessed">Numbers guessed: </p>
+    </div>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

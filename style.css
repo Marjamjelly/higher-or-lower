@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+  margin: 0;
+  padding: 50px;
+  background: #1C1C1C;
+}
+
+.container {
+  margin: auto;
+  width: 600px;
+  height: 400px;
+  padding: 25px;
+  background: #4831D4;
+  border-radius: 20px;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Indie Flower', 'Inter', sans-serif;
+  font-size: 50px;
+  text-shadow: 3px 3px 2px #CCF381;
+}
+
+.lower-title {
+  margin-top: 0;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #D5D4D8;
+  font-family: 'Indie Flower', 'Inter', sans-serif;
+  font-size: 25px;
+  font-weigth: bold;
+  
+}
+
+hr {
+  margin-top: 0;
+  color: #FFFFFF;
+  box-shadow: 3px 3px 2px #CCF381;
+  
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.play-higher-lower, .current-guess {
+  //margin-bottom: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* The code below hides the arrows from the input number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.current-guess {
+  padding-bottom: 20px;
+}
+
+#guessed-num {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  height: 30px;
+  padding-left: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 0 10px;
+  padding: 0 2px;
+  display: block;
+  background: #CCF381;
+  color: #4831D4;
+  //border: none;
+  height: 40px;
+  width: 105px;
+  font-family: 'Indie Flower';
+  font-size: 30px;
+  font-wieght: bold;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #4831D4;
+  color: #CCF381;
+}
+
+.num-guessed {
+  margin-left: 100px; 
+}
+
+.guess-stmnt, .num-guessed {
+  font-size: 20px;
+}
